@@ -1,0 +1,66 @@
+@import 'color';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fix:before,.fix:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h5{
+    color:$option;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.header-part1{
+    border-bottom: 1px solid #333;
+}
+.common-div{
+    background-color: #fff;
+}
+.dotted-hr {
+	border: dotted 15px rgb(172, 169, 169);
+	border-bottom: none;
+	width: 100px;
+	margin: 10px auto;
+}
+.heading{
+    font-size: 30px;
+    color: #455A64;
+    margin: 30px 0;
+    text-transform: capitalize;
+    font-weight: 500px;
+}
+hr{
+    border-bottom: .1px solid rgb(224, 220, 220);
+    opacity: .2;
+}
+@for $i from 1 through 10{
+    .pt-#{$i*10}{
+        padding-top: $i*10px;
+    }
+    .pb-#{$i*10}{
+        padding-bottom: $i*10px;
+    }
+    .pl-#{$i*10}{
+        padding-left: $i*10px;
+    }
+    .pr-#{$i*10}{
+        padding-right: $i*10px;
+    }
+}

@@ -1,0 +1,15 @@
+.affiliations-part{
+    margin: 60px 0;
+}
+.affiliations {
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    column-gap: 50px;
+   
+    padding: 20px;
+    .affiliations-img {
+        width: 100px;
+        margin-bottom: 50px;
+      }
+  }
+  

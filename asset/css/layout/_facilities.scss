@@ -1,0 +1,29 @@
+.facilities {
+	display: grid;
+	grid-template-columns: repeat(3,auto);
+	column-gap: 30px;
+	grid-template-rows: repeat(2,auto);
+	row-gap: 50px;
+	.single-facilities {
+		background-color: #fff;
+		text-align: center;
+        i {
+            font-size: 35px;
+            margin: 20px 0;
+            color: #C3D136;
+          }
+          h4 {
+            color: #28343a;
+            font-size: 22px;
+            margin-bottom: 20px;
+          }
+          p {
+            /*! margin-bottom: ; */
+            padding: 20px;
+            color:#28343a;
+          }
+	  }
+  }
+  
+
+  

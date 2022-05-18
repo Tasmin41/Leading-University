@@ -1,0 +1,36 @@
+.events-part{
+    margin: 50px 0;
+	
+}
+
+.events {
+	display: grid;
+	grid-template-columns: repeat(3,auto);
+	column-gap: 20px;
+	.first-event{
+		h2 {
+			background-color: #C3D136;
+			color: white;
+			padding: 15px 20px;
+			width: 290px;
+		  }
+		  .first-event-desc {
+			margin: 20px 30px 50px 30px;
+			a {
+				color: #C3D136;
+				font-size: 20px;
+				&:hover{
+					text-decoration: underline;
+				}
+			  }
+		  }
+	}
+}
+
+
+
+  
+
+ 
+  
+  
